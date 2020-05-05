@@ -1,4 +1,4 @@
-package org.lineageos.updater.ui;
+package org.cesium.updater.ui;
 
 import android.content.Context;
 import android.util.AttributeSet;

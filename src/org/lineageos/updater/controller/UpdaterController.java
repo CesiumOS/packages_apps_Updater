@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.updater.controller;
+package org.cesium.updater.controller;
 
 import android.content.Context;
 import android.content.Intent;
@@ -24,12 +24,12 @@ import android.util.Log;
 
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import org.lineageos.updater.UpdatesDbHelper;
-import org.lineageos.updater.download.DownloadClient;
-import org.lineageos.updater.misc.Utils;
-import org.lineageos.updater.model.Update;
-import org.lineageos.updater.model.UpdateInfo;
-import org.lineageos.updater.model.UpdateStatus;
+import org.cesium.updater.UpdatesDbHelper;
+import org.cesium.updater.download.DownloadClient;
+import org.cesium.updater.misc.Utils;
+import org.cesium.updater.model.Update;
+import org.cesium.updater.model.UpdateInfo;
+import org.cesium.updater.model.UpdateStatus;
 
 import java.io.File;
 import java.io.IOException;
